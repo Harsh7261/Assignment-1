@@ -1,0 +1,79 @@
+
+body{
+    font-family: 'Roboto';
+}
+
+#contents{
+    margin-top:5%;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 9px;
+    background-image: linear-gradient(to bottom, rgb(172, 122, 122), rgb(255, 255, 255));
+}
+
+#out{
+    text-align: center;
+}
+
+#name_component{
+    margin-top: 0px;
+    width: 360px;
+    height: 90px;
+    letter-spacing: 8px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+    border: 2px solid black;
+    background-color: rgb(238, 211, 153);
+    font-size: 40px;
+}
+
+#image_out{
+    text-align:center;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img{
+    width: 30%;
+}
+
+#image_comp{
+    display: inline-block;
+    margin-top: 25px;
+    border: 2px solid black;
+}
+
+#intro_component{
+    display: inline-block;
+    margin-top:50px;
+    font-size: 17px;
+}
+
+#button_out{
+    text-align:center;
+}
+
+#button_component{
+    margin-top: 15px;
+    width: 200px;
+    height: 60px;
+    letter-spacing: 2px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid black;
+    background: rgb(201, 164, 149);
+    font-size: 16px;
+    
+}
+
+#button_component:hover{
+    font-size: 20px;
+    border-radius: 10px;
+}
